@@ -6,6 +6,7 @@ import numpy as np
 
 app = Flask(__name__)
 
+# Load pretrained model
 model = load_model('deployment_28042020')
 cols = ['age', 'sex', 'bmi', 'children', 'smoker', 'region']
 
