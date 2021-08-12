@@ -9,11 +9,9 @@
 ```
 docker image build -t rover .
 docker run -p 5000:5000 -d rover
-
 ```
-
 * Go to your browser and type the url: <localhost:5000>
-* There you can enter inputs for rove
+* There you can enter inputs for rovers
 
 ## Brief Introduction
 Code has been developed using TDD approach in a OOP layout and supplied as a python package. 
@@ -27,32 +25,4 @@ A brief explanation of the code:
 * Rovers are landed and navigated on the plateau sequentially
 * The lower-left coordinates of plateau are assumed to be 0,0.
 * No limit for the number of rovers
-
-
-## What Needs Improvement
-* Get jsdom to work correctly in jest to write tests against App and Board
-* Use react.js or vue.js or some other front end library to remove the DOM dependancy in some classes
-* Make the UI pretty
-* Parse the input in a way that the user can see the robots move around the screen
-
-
-
-#### Sample Input
-```
-5 3
-1 1 E
-RFRFRFRF
-
-3 2 N
-FRRFLLFFRRFLL
-
-0 3 W
-LLFFFLFLFL
-```
-#### Sample Output
-```
-1 1 E
-3 3 N LOST
-2 3 S
-```
 
