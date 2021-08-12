@@ -16,9 +16,9 @@ docker run -p 5000:5000 -d rover
 ## Brief Introduction
 Code has been developed using TDD approach in a OOP layout and supplied as a python package. 
 A brief explanation of the code:
-* navigate.py contains the MarsRover class which provides the functionalities to navigate the rover on plateau
-* app.py conatins the flask api wrapper for the MarsRover class
-* test_navigate.py contains various unit-tests eg. hard coded test cases, tests for missing entries, rover lost and clash test cases, invalid entries cases etc.
+* ```navigate.py``` contains the MarsRover class which provides the functionalities to navigate the rover on plateau
+* ```app.py``` conatins the flask api wrapper for the MarsRover class
+* ```test_navigate.py``` contains various unit-tests eg. hard coded test cases, tests for missing entries, rover lost and clash test cases, invalid entries cases etc.
 * API runs in a docker container with configuration provided in Docerfile
   
 #### Assumptions:
