@@ -10,7 +10,7 @@
 docker image build -t rover .
 docker run -p 5000:5000 -d rover
 ```
-* Go to your browser and type the url: <b />localhost:5000
+* Go to your browser and type the url: <b>localhost:5000</b>
 * There you can enter input configuration for the rovers and press submit to generate the output.<br /> If the entries are wrong the output will contain error messaege otherwise the final states of all the rovers
 
 ## Brief Introduction
