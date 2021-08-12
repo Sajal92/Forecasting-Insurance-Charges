@@ -1,6 +1,7 @@
 # Deploy Machine Learning Pipeline on Google Kubernetes Engine
 # Coding Challenge - Martian Robots
 ## How to Run
+* To run the unit tests just run the command ``` pytest ``` inside the folder containing source code i.e app folder
 Inside the ..
 ```
 //Clone the repo locally and then run
