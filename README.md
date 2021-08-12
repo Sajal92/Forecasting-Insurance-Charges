@@ -12,7 +12,7 @@ docker image build -t rover .
 docker run -p 5000:5000 -d rover
 
 ```
-* Go to your browser and type the url:[1]: localhost:5000
+* Go to your browser and type the url: [1]: localhost:5000
 * 
 To run the unit tests just run ``` pytest ```
 ## Technology Used
