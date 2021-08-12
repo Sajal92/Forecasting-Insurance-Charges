@@ -1,18 +1,16 @@
 # Deploy Machine Learning Pipeline on Google Kubernetes Engine
 # Coding Challenge - Martian Robots
-## How to Run
-* To run the unit tests just run the command ``` pytest ``` inside the folder containing source code i.e app folder
-Inside the ..
+## Instructions to Run
+
+* Open the terminal inside the folder containing the source code i.e app foler
+* To run the unit tests just type the command ``` pytest ``` and press enter
+* To get the flask api up and running use following commands
 ```
 //Clone the repo locally and then run
 
 docker image build -t rover .
 docker run -p 5000:5000 -d rover
 
-npm start
-
-//To run the unit tests 
-pytest
 ```
 To run the unit tests just run ``` pytest ```
 ## Technology Used
