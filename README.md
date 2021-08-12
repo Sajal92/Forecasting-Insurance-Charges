@@ -10,9 +10,8 @@
 docker image build -t rover .
 docker run -p 5000:5000 -d rover
 ```
-* Go to your browser and type the url: localhost:5000
-* There you can enter inputs for rovers and press submit to generate the output. If the entries <br /> are wrong the output will contain error 
-* messaege otherwise the final state  
+* Go to your browser and type the url: <b />localhost:5000
+* There you can enter input configuration for the rovers and press submit to generate the output.<br /> If the entries are wrong the output will contain error messaege otherwise the final states of all the rovers
 
 ## Brief Introduction
 Code has been developed using TDD approach in a OOP layout and supplied as a python package. 
