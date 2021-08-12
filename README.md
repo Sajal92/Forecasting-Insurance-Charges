@@ -14,7 +14,7 @@ docker run -p 5000:5000 -d rover
 ```
 * Go to your browser and type the url: <localhost:5000>
 * 
-[](https://www.google.com)
+[](localhost:5000)
 
 <http://www.example.com>
 
