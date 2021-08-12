@@ -1,5 +1,5 @@
 # Deploy Machine Learning Pipeline on Google Kubernetes Engine
-# Coding Challenge - Martian Robots
+# Problem - Mars Rover
 
 ## Instructions to Run
 
@@ -25,4 +25,3 @@ A brief explanation of the code:
 * Rovers are landed and navigated on the plateau sequentially
 * The lower-left coordinates of plateau are assumed to be 0,0.
 * No limit for the number of rovers
-
