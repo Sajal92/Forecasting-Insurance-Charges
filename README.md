@@ -7,13 +7,13 @@
 * To run the unit tests just type the command ``` pytest ``` and press enter
 * To get the flask api up and running use following commands
 ```
-//Clone the repo locally and then run
-
 docker image build -t rover .
 docker run -p 5000:5000 -d rover
 
 ```
+
 * Go to your browser and type the url: <localhost:5000>
+* There you can enter inputs for rove
 
 ## Brief Introduction
 Code has been developed using TDD approach in a OOP layout and supplied as a python package. 
@@ -23,7 +23,7 @@ A brief explanation of the code:
 * test_navigate.py contains various unit-tests eg. hard coded test cases, tests for missing entries, rover lost and clash test cases, invalid entries cases etc.
 * API runs in a docker container with configuration provided in Docerfile
   
-### Assumptions:
+#### Assumptions:
 * Rovers are landed and navigated on the plateau sequentially
 * The lower-left coordinates of plateau are assumed to be 0,0.
 * No limit for the number of rovers
