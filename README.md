@@ -14,8 +14,10 @@ docker run -p 5000:5000 -d rover
 ```
 * Go to your browser and type the url: <localhost:5000>
 * 
-[I'm an inline-style link](https://www.google.com)
- <http://www.example.com>
+[](https://www.google.com)
+
+<http://www.example.com>
+
 ## Technology Used
 * npm for package management
 * Babel for es6 support
