@@ -4,13 +4,13 @@
 ## Instructions to Run
 
 * Open terminal inside the folder containing the source code i.e app folder
-* To run the unit tests just type the command ``` pytest ``` and press enter
-* To get the flask api up and running use following commands
+* To run the unit tests just type the command ``` pytest ``` and press ```enter```
+* To get the flask api up and running use following commands:
 ```
 docker image build -t rover .
 docker run -p 5000:5000 -d rover
 ```
-* Go to your browser and type the url: <b>localhost:5000</b>
+* Go to your browser and enter the url: <b>localhost:5000</b>
 * There you can enter input configuration for the rovers and press submit to generate the output.<br /> If the entries are wrong the output will contain error messaege otherwise the final states of all the rovers
 
 ## Brief Introduction
