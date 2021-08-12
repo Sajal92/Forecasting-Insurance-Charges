@@ -16,7 +16,7 @@ docker run -p 5000:5000 -d rover
 * 
 [](localhost:5000)
 
-<http://www.example.com>
+<localhost:5000>
 
 ## Technology Used
 * npm for package management
