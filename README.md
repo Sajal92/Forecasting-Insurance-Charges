@@ -2,7 +2,7 @@
 # Coding Challenge - Martian Robots
 ## Instructions to Run
 
-* Open the terminal inside the folder containing the source code i.e app foler
+* Open terminal inside the folder containing the source code i.e app folder
 * To run the unit tests just type the command ``` pytest ``` and press enter
 * To get the flask api up and running use following commands
 ```
@@ -12,6 +12,8 @@ docker image build -t rover .
 docker run -p 5000:5000 -d rover
 
 ```
+* Go to your browser and type the url: localhost:5000 
+* 
 To run the unit tests just run ``` pytest ```
 ## Technology Used
 * npm for package management
