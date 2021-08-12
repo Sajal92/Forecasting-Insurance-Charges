@@ -23,7 +23,7 @@ A brief explanation of the code:
 * test_navigate.py contains various unit-tests eg. hard coded test cases, tests for missing entries, rover lost and clash test cases, invalid entries cases etc.
 * API runs in a docker container with configuration provided in Docerfile
   
-# Assumptions:
+### Assumptions:
 * Rovers are landed and navigated on the plateau sequentially
 * The lower-left coordinates of plateau are assumed to be 0,0.
 * No limit for the number of rovers
