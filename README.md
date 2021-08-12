@@ -1,16 +1,19 @@
 # Deploy Machine Learning Pipeline on Google Kubernetes Engine
 # Coding Challenge - Martian Robots
 ## How to Run
+Inside the ..
 ```
 //Clone the repo locally and then run
-npm install
-npm run build
+
+docker image build -t rover .
+docker run -p 5000:5000 -d rover
+
 npm start
 
-//To run the unit tests
-npm test
+//To run the unit tests 
+pytest
 ```
-
+To run the unit tests just run ``` pytest ```
 ## Technology Used
 * npm for package management
 * Babel for es6 support
